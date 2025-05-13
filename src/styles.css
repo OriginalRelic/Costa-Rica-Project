@@ -53,6 +53,19 @@ header a {
     background: white;
 }
 
+
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(../images/san-jose-footer);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
 @media (max-width: 960px){
     header h1 {
         font-size: 48px;
